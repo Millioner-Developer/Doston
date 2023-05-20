@@ -1,0 +1,97 @@
+body {
+    font-size: 2.5vh;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+button{
+    cursor: pointer;
+}
+#calculator {
+    width: 330px;
+    height: auto;
+    padding: 1.5vh 3vh;
+    border: 5px solid #666666;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.box {
+    text-align: right;
+    padding: 10px;
+    font-size: 38px;
+    border: 2px solid #e68a00;
+    color: white;
+    border-radius: 15px;
+}
+
+#last_operation_history {
+    height: 1.8vh;
+    font-size: 1.8vh;
+    text-align:right;
+    padding-right: 1.5vh;
+    color: rgb(177, 176, 176);
+    background-color: black;
+}
+
+button {
+    width:9vh;
+    height: 9vh;
+    font-weight: bold;
+    font-size: 3vh;
+    color: white;
+    background-color: #666666;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+#backspace_btn {
+    background-image: url("../assets/back_remove.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 1.7em;
+}
+
+button:hover {
+    background-color: #999999;
+}
+
+.operator {
+    background-color: #e68a00;
+   
+}
+
+.operator:hover {
+    background-color: #ffd11a;
+}
+
+#equal_sign {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+#equal_sign{
+width: 90px;
+}
